@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+.container2{
+    height:100vh;
+    width:100vw;
+    background:#f2ece9;
+    position: relative;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.proj-heading{
+    position:absolute;
+    height:15%;
+    width:100%;
+}
+.underline-project{
+    height:1.5px;
+    width:145px;
+    background:#b40d1a;
+    position: absolute;
+    top:75%;
+    left:50%;
+    transform:translate(-50%,-50%);  
+}
+.projects-part{
+    height:80%;
+    width:90%;
+    position: absolute;
+    top:20%;
+}
+.proj-div{
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+.left-proj{
+    position: absolute;
+    height:80%;
+    width:60%;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+    margin-left: 5%;
+}
+.right-proj{
+    position: absolute;
+    height:80%;
+    width:15%;
+    margin-left: 70%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    /* background:red; */
+}
+.nep-proj1{
+    height:100%;
+    width:100%;
+    background:url('../images/nepalabout.png');
+    background-position: center;
+    background-size: cover;
+}
+.nep-proj2{
+    height:100%;
+    width:100%;
+    background:url('../images/nepal.png');
+    background-position: center;
+    background-size: cover;
+}
+.nep-proj3{
+    height:100%;
+    width:100%;
+    background:url('../images/nepalactivites.png');
+    background-position: center;
+    background-size: cover;
+}
+.food-proj{
+    height:100%;
+    width:100%;
+    background:url('../images/food.png');
+    background-position: center;
+    background-size: cover;
+}
+.more-proj{
+    height:20%;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+}
+
+
+a>.arrow-div{
+    height:10%;
+    width:10%;
+    margin-top: 12%;
+    /* background:green; */
+    background:url('../images/right-arrow.svg');
+    background-size: 50px 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media all and (max-width:1000){
+    .left-proj{
+        height:50%;
+        width:20%;
+    }
+}
+@media all and (max-width:800){
+    .left-proj{
+        height:30%;
+        width:5%;
+    }
+    a>.arrow-div{
+       visibility: hidden;
+     }
+}
+@media all and (max-width:500){
+    .left-proj{
+        height:20%;
+        width:2%;
+    }
+  
+}
