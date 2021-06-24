@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/milanthapa/static/css/main.621f8749.chunk.css",
+    "main.js": "/milanthapa/static/js/main.1ab3a218.chunk.js",
+    "main.js.map": "/milanthapa/static/js/main.1ab3a218.chunk.js.map",
+    "runtime-main.js": "/milanthapa/static/js/runtime-main.59277263.js",
+    "runtime-main.js.map": "/milanthapa/static/js/runtime-main.59277263.js.map",
+    "static/js/2.f7d6116b.chunk.js": "/milanthapa/static/js/2.f7d6116b.chunk.js",
+    "static/js/2.f7d6116b.chunk.js.map": "/milanthapa/static/js/2.f7d6116b.chunk.js.map",
+    "static/js/3.77f61039.chunk.js": "/milanthapa/static/js/3.77f61039.chunk.js",
+    "static/js/3.77f61039.chunk.js.map": "/milanthapa/static/js/3.77f61039.chunk.js.map",
+    "index.html": "/milanthapa/index.html",
+    "static/css/main.621f8749.chunk.css.map": "/milanthapa/static/css/main.621f8749.chunk.css.map",
+    "static/js/2.f7d6116b.chunk.js.LICENSE.txt": "/milanthapa/static/js/2.f7d6116b.chunk.js.LICENSE.txt",
+    "static/media/SecondSec.css": "/milanthapa/static/media/right-arrow.c49d62f0.svg",
+    "static/media/Landing.css": "/milanthapa/static/media/insta.9c88ed0c.png",
+    "static/media/Aboutme.css": "/milanthapa/static/media/milan.72cea091.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59277263.js",
+    "static/js/2.f7d6116b.chunk.js",
+    "static/css/main.621f8749.chunk.css",
+    "static/js/main.1ab3a218.chunk.js"
+  ]
+}
