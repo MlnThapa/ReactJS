@@ -261,25 +261,46 @@
     }
 
 }
-@media all and (max-width:600px){
+@media all and (max-width:640px){
+    .container{
+        height:70vh;
+        width:100vw;
+    }
     .nav-bar{
-        font-size: 10.5px;
+        font-size: 8px;
+        top:10%;
+        background: #f2ece9;
+        height:10%;
     }
     .right-nav{
-        width:45%;
+        width:60%;
     }
     .inner-container{
-        width:90%;
+        top:-10%;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
     }
     .name>h5{
         font-size: 8px;
-        left:33%;
+        left:50%;
+    }
+    .info-details{
+        height:100%;
+        width:100%;
     }
     .info-in{
-        font-size:17px;
+        font-size:15px;
+        left:10%;
     }
     .more-info{
         font-size:17px;
+        left:10%;
+    }
+    .gmail{
+        left:50%;
     }
 
 }

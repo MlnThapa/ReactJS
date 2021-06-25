@@ -52,3 +52,8 @@ h5{
         font-size: 12px;
     }
 }
+@media all and (max-width:640px){
+    p{
+        font-size: 10px;
+    }
+}

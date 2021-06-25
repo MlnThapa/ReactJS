@@ -52,7 +52,7 @@ function Skills() {
                         <div><p>SCSS</p></div>
                         <div><p>AdobeXd</p></div>
                         <div><p>Python</p></div>
-                        <div><p>C programming</p></div>
+                        <div><p>TypeScript</p></div>
                         <div><p>Photography</p></div>
                     </div>
                 </div>

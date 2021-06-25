@@ -78,4 +78,17 @@ h5{
 p{
     margin-top: 2.4%;
 }
+@media all and (max-width:640px){
+    .bottomSec{
+        left:0;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .my-details>p{
+        font-size: 9px;
+    }
+
+}
 
