@@ -35,8 +35,8 @@ function SecondSec() {
            <div ref={sectionRef3} className="container2">
                <div className="proj-heading">
                    <div className="heading-div">
-                       <h5>My projects</h5>
-                       <div className="underline-project fadeIn3"></div>
+                       <h5 className="fadeIn3">My projects</h5>
+                       <div className="underline-project fadeIn3"></div> 
                    </div>
                </div>
                <div className="projects-part fadeIn3">

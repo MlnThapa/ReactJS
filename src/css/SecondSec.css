@@ -51,7 +51,6 @@
     display: flex;
     align-items: center;
     z-index: 1;
-    /* background:red; */
 }
 .nep-proj1{
     height:100%;
@@ -94,7 +93,6 @@ a>.arrow-div{
     height:10%;
     width:10%;
     margin-top: 12%;
-    /* background:green; */
     background:url('../images/right-arrow.svg');
     background-size: 50px 15px;
     background-position: center;
