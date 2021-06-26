@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mlnthapa/static/css/main.c0cecf07.chunk.css",
+    "main.js": "/mlnthapa/static/js/main.3d40a289.chunk.js",
+    "main.js.map": "/mlnthapa/static/js/main.3d40a289.chunk.js.map",
+    "runtime-main.js": "/mlnthapa/static/js/runtime-main.8ba5a658.js",
+    "runtime-main.js.map": "/mlnthapa/static/js/runtime-main.8ba5a658.js.map",
+    "static/js/2.0e4d4c05.chunk.js": "/mlnthapa/static/js/2.0e4d4c05.chunk.js",
+    "static/js/2.0e4d4c05.chunk.js.map": "/mlnthapa/static/js/2.0e4d4c05.chunk.js.map",
+    "static/js/3.2d5b80ab.chunk.js": "/mlnthapa/static/js/3.2d5b80ab.chunk.js",
+    "static/js/3.2d5b80ab.chunk.js.map": "/mlnthapa/static/js/3.2d5b80ab.chunk.js.map",
+    "index.html": "/mlnthapa/index.html",
+    "static/css/main.c0cecf07.chunk.css.map": "/mlnthapa/static/css/main.c0cecf07.chunk.css.map",
+    "static/js/2.0e4d4c05.chunk.js.LICENSE.txt": "/mlnthapa/static/js/2.0e4d4c05.chunk.js.LICENSE.txt",
+    "static/media/SecondSec.css": "/mlnthapa/static/media/right-arrow.2626500a.svg",
+    "static/media/Landing.css": "/mlnthapa/static/media/insta.9c88ed0c.png",
+    "static/media/Aboutme.css": "/mlnthapa/static/media/milan.72cea091.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ba5a658.js",
+    "static/js/2.0e4d4c05.chunk.js",
+    "static/css/main.c0cecf07.chunk.css",
+    "static/js/main.3d40a289.chunk.js"
+  ]
+}
