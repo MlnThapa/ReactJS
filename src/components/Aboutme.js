@@ -13,7 +13,7 @@ function Aboutme() {
     });
 
     const fadeIn=(element)=>{
-        gsap.to(element,1,{
+        gsap.to(element,2,{
             opacity:1,
             ease:'power4.out',
             scale:1
@@ -21,7 +21,7 @@ function Aboutme() {
     }
 
     const fadeOut=(element)=>{
-        gsap.to(element,1,{
+        gsap.to(element,2,{
             opacity:0,
             ease:'power4.out',
             scale:0.5
@@ -34,7 +34,7 @@ function Aboutme() {
 
     return (
         <>
-        <div ref={sectionRef} className="container4 ">
+        <div ref={sectionRef} id="container4" className="container4">
             <div className="topSec">
                     <div className="about-me-heading">
                         <h5>About me</h5>

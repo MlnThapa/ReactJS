@@ -1,5 +1,6 @@
 import '../css/Landing.css'
 import React from 'react'
+import {Link} from 'react-scroll'
 
 function Landing({setValue}) {
         const hoverEffect1= ()=>{
@@ -13,12 +14,12 @@ function Landing({setValue}) {
             <div className="container">
                <div className="inner-container">
                 <div className="nav-bar">
-                        <div className="left-nav" onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2}>Home</div>
+                        <div className="left-nav" onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2}><div style={{cursor:"pointer"}}>Home</div></div>
                         <div className="right-nav">
-                            <div className="right-nav-comp" onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2}>Projects</div>
-                            <div className="right-nav-comp" onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2}>About me</div>
-                            <div className="right-nav-comp" onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2}>Skills</div>
-                            <div className="right-nav-comp" onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2}>Contact</div>
+                            <Link activeClass="active" to="container2" spy={true} smooth={true}><div className="right-nav-comp" onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2}>Projects</div></Link>
+                            <Link to="container4" spy={true} smooth={true}><div className="right-nav-comp" onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2}>About me</div></Link>
+                            <Link to="container3" spy={true} smooth={true}><div className="right-nav-comp" onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2}>Skills</div></Link>
+                            <Link to="last-container" spy={true} smooth={true}><div className="right-nav-comp" onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2}>Contact</div></Link>
                         </div>
                     </div>
                     <div className="info">

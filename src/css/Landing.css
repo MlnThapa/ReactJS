@@ -40,6 +40,7 @@
 .left-nav{
     display: flex;
     align-items: center;
+    
 }
 .right-nav{
     width:33%;
@@ -47,6 +48,9 @@
     display:flex;
     justify-content: space-evenly;
     align-items: center;
+}
+.right-nav-comp{
+    cursor:pointer;
 }
 .info{
     position:absolute;

@@ -13,7 +13,7 @@ function Skills() {
     });
 
     const fadeIn=(element)=>{
-        gsap.to(element,1,{
+        gsap.to(element,2,{
             opacity:1,
             ease:'power4.out',
             scale:1,
@@ -21,7 +21,7 @@ function Skills() {
     }
 
     const fadeOut=(element)=>{
-        gsap.to(element,1,{
+        gsap.to(element,2,{
             opacity:0,
             ease:'power4.out',
             scale:0.5,
@@ -33,7 +33,7 @@ function Skills() {
     
     return (
         <div>
-            <div ref={sectionRef2} className="container3">
+            <div ref={sectionRef2} id="container3" className="container3">
                <div className="heading-box">
                    <div className="heading">
                         <h5>SKILLS</h5>

@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
          <Landing setValue={setValue}/>
-         <SecondSec />
+         <SecondSec setValue={setValue}/>
          <Aboutme/>
          <Skills />
          <Contact />
