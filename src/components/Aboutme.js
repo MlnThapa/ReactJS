@@ -13,7 +13,7 @@ function Aboutme() {
     });
 
     const fadeIn=(element)=>{
-        gsap.to(element,1.5,{
+        gsap.to(element,1,{
             opacity:1,
             ease:'power4.out',
             scale:1
@@ -21,7 +21,7 @@ function Aboutme() {
     }
 
     const fadeOut=(element)=>{
-        gsap.to(element,1.5,{
+        gsap.to(element,1,{
             opacity:0,
             ease:'power4.out',
             scale:0.5
