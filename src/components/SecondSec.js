@@ -55,7 +55,7 @@ function SecondSec({setValue}) {
                         </div>
                         <div className="right-proj">
                             <div className="more-proj">
-                                <a  onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2} href="https://www.youtube.com/watch?v=rdi7G1hY4-w&ab_channel=SandaruSathsara">
+                                <a  onMouseEnter={hoverEffect1} onMouseLeave={hoverEffect2} href="">
                                 <div><p>View more of my works</p></div>
                                 <div className="arrow-div"></div>
                                 </a>
